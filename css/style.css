@@ -1,0 +1,281 @@
+/* Website template by freewebsitetemplates.com */
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px 20px;
+
+}
+.navbar .logo {
+    color: #c78e3a;
+	font-style: italic;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+
+
+}
+
+.info{
+    list-style: none;
+    display: flex;
+
+}
+.info li {
+margin-left: 20px;
+
+}
+.info a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: 4em ease;
+
+} 
+.info a:hover{
+    background-color: crimson;
+    border: 2px,solid , #fff;
+    transition: 4s ease;
+    
+}
+
+body #page {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+img {
+	border: none;
+}
+
+#body.home div.header {
+	background-color: black;
+	margin: 0;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.header img {
+	display: block;
+	left: 50%;
+	margin: 0 auto 0 -563px;
+	padding: 0;
+	position: absolute;
+	width: 1126px;
+}
+#body.home div.header div {
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 660px;
+	padding: 0;
+	position: relative;
+}
+
+#body.home div.body {
+	background-color: #eae7e8;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.body div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+#body.home div.body div div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	width: 560px;
+}
+#body.home div.body div img {
+	display: block;
+	float: right;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#body.home div.body div div h1 {
+	color: black;
+	display: block;
+	font-family: lato-bold-webfont;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 47px 0 18px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 560px;
+}
+#body.home div.body div div h2 {
+	color: #c78e3a;
+	display: block;
+	font-family: magra-bold-webfont;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 26px;
+	text-align: left;
+	text-transform: none;
+	width: 560px;
+}
+#body.home div.body div div p {
+	color: #7a6666;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 560px;
+}
+#body.home div.footer {
+	background-color: #c78e3a;
+	margin: 0;
+	margin-top: 20px;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.footer div {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0;
+}
+#body.home div.footer div ul {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0;
+	padding: 36px 0 32px;
+	width: 100%;
+}
+#body.home div.footer div ul li {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 220px;
+}
+#body.home div.footer div ul li a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	height: 44px;
+	margin: 0 auto 22px;
+	padding: 0;
+	width: 80px;
+}
+#body.home div.footer div ul li a.product {
+	background-position: 0 -372px;
+}
+#body.home div.footer div ul li a.about {
+	background-position: 0 -418px;
+}
+#body.home div.footer div ul li a.flavor {
+	background-position: 0 -280px;
+}
+#body.home div.footer div ul li a.contact {
+	float: none;
+	background-position: 0 -326px;
+}
+#body.home div.footer div ul li h1 {
+	color: #ffffff;
+	font-family: lato-regular-webfont;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+#footer {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#footer div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 59px 0 13px;
+}
+#footer div p {
+	color: #FFFFFF;
+	display: block;
+	font-family: roboto-regular-webfont;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 33px 0 50px;
+	text-align: center;
+	text-transform: none
+}
+#footer div .connect {
+	display: block;
+	height: 30px;
+	margin: 0 auto;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 240px;
+}
+#footer div .connect a {
+	background: url(../images/icons.png);
+	display: block;
+	float: left;
+	height: 40px;
+	margin: 0 15px;
+	padding: 0;
+	text-indent: -99999px;
+	width: 30px;
+}
+#footer div .connect a.facebook {
+	background-position: 0 0;
+}
+#footer div .connect a.googleplus {
+	background-position: 0 -32px;
+}
+#footer div .connect a.pinterest {
+	background-position: 0 -64px;
+}
+#footer div .connect a.twitter {
+	background-position: 0 -96px;
+}
+span{
+	color: #ffffff;
+}
